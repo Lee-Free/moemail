@@ -2,7 +2,7 @@ name: Deploy
 
 on:
   push:
-    tags:
+    tags: v1.0.0
       - 'v*'
   workflow_dispatch:
 
